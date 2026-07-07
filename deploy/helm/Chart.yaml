@@ -1,0 +1,11 @@
+apiVersion: v2
+
+name: demo-app
+
+description: Helm chart for deploying demo application to on-prem Kubernetes Lab and Demo environments
+
+type: application
+
+version: 0.1.0
+
+appVersion: "1.0.0"
