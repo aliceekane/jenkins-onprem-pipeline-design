@@ -1,0 +1,17 @@
+replicaCount: 2
+
+environment: demo
+
+logLevel: INFO
+
+image:
+  repository: nexus.local/demo-app
+  tag: stable
+
+service:
+  type: ClusterIP
+  port: 8080
+
+ingress:
+  host: demo-app.demo.local
+  tlsSecret: demo-app-tls
