@@ -1,7 +1,7 @@
 # Jenkins CI/CD Pipeline Flow
 
 ```mermaid
-flowchart LR
+flowchart TD
 
 Developer --> Git[Git Repository]
 
