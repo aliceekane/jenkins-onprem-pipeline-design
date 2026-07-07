@@ -1,0 +1,17 @@
+# Secrets
+*.pem
+*.key
+*.crt
+.env
+kubeconfig
+
+# Python
+__pycache__/
+*.pyc
+
+# Jenkins
+workspace/
+
+# IDE
+.vscode/
+.idea/
